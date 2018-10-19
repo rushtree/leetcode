@@ -6,7 +6,7 @@
  * ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null || l2 == null)
             return l1 == null ? l2 : l1;
