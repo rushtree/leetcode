@@ -1,4 +1,6 @@
- public int smallestDistancePair(int[] nums, int k) {
+ public class FindKthSmallestPairDistance{
+
+public int smallestDistancePair(int[] nums, int k) {
         Arrays.sort(nums);
         int n = nums.length, left = 0, right = nums[n-1] - nums[0];
         while (left < right) {
@@ -13,3 +15,4 @@
         }
         return right;
     }
+ }
