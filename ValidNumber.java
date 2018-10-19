@@ -1,4 +1,4 @@
-class Solution {
+class ValidNumber {
    public static final String floatReg1 = "^([-+]?\\d+)(\\.\\d*)$";
     public static final String floatReg2 = "^([-+]?\\d*)(\\.\\d+)$";
     public static final String intReg = "^[-+]?\\d+$";
