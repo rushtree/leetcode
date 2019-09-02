@@ -1,6 +1,4 @@
-/*
- * Copyright (c) Huawei Technologies Co., Ltd. 2019. All rights reserved.
- */
+
 
 package rushtree;
 
